@@ -23,9 +23,5 @@ module.exports = function check(str, bracketsConfig) {
         }
     }
 
-    // if (str.length > 0 ) return false;
-    // else return true;
     return result = (str.length <= 0) ? true : false;
-
-
 }
